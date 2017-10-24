@@ -1,0 +1,43 @@
+{
+  "name": "react-redrag",
+  "version": "0.1.0",
+  "description": "Draggable, Droppable and Sortable components",
+  "main": "dist/react-redrag.js",
+  "types": "dist/react-redrag.d.ts",
+  "scripts": {
+    "prebulish": "npm run build",
+    "build": "rimraf dist/ && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Megaputer/react-redrag.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "dnd",
+    "drag",
+    "draggable",
+    "drop",
+    "droppable",
+    "sortable"
+  ],
+  "author": "Megaputer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Megaputer/react-redrag/issues"
+  },
+  "homepage": "https://github.com/Megaputer/react-redrag/",
+  "devDependencies": {
+    "@types/react": "16.0.7",
+    "@types/react-dom": "15.5.5",
+    "rimraf": "^2.6.2",
+    "ts-loader": "2.3.7",
+    "typescript": "2.5.3",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "react": "16.0.0",
+    "react-dom": "16.0.0"
+  }
+}

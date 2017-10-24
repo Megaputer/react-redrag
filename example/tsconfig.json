@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "noImplicitAny": true,
+    "noUnusedLocals": true
+  },
+  "include": [
+    "./src/index.tsx"
+  ]
+}
