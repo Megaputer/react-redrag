@@ -2,9 +2,9 @@
 
 Yes, another one library to drag and drop. It written in [Typescript](http://www.typescriptlang.org/) for [React](https://facebook.github.io/react/) and containing `Draggable`, `Droppable` and `Sortable` components. Drag and Drop should be simple and pleasant!
 
-## Examples
+## Example
 
-This is a basic usage examples.
+[Basic usage examples.](https://megaputer.github.io/react-redrag/)
 
 ## API
 
@@ -135,7 +135,3 @@ export interface SortableProps extends React.HTMLAttributes<HTMLDivElement> {
   onSortEnd: (from: number, to: number) => void;
 }
 ```
-
-## Author
-
-Grigoriev Alexander - grigoriev@megaputer.ru
